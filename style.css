@@ -1,0 +1,10 @@
+/* style.css 文件内容 */
+body {
+    background-color: #E6E6FA; /* 浅紫色背景 */
+    color: #333333; /* 文字颜色 */
+}
+
+.big-font {
+    font-size: 30px;
+    font-weight: bold;
+}
