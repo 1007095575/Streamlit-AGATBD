@@ -82,7 +82,7 @@ st.write("""
          """)
 col1, col2, col3 = st.columns([1,2,1])  # st.columns([1,2,1]) 创建了三列，中间列是两侧列的两倍宽。将图片放在中间列可以达到居中的效果。
 with col2:  # 使用中间列来显示图片，会使图片居中
-    st.image("C:/Users/86180/Desktop/IJCNN/展示网页的材料/图1.jpg", caption="图1 2014-2023年全球锂离子电池出货量示意图")
+    st.image("picture/图1.jpg", caption="图1 2014-2023年全球锂离子电池出货量示意图")
 
 st.markdown("<a id='methodology'></a>", unsafe_allow_html=True)
 st.header("2. 研究现状")
@@ -111,7 +111,7 @@ st.write("""
 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:  # 使用中间列来显示图片，会使图片居中
-    st.image("C:/Users/86180/Desktop/IJCNN/展示网页的材料/锂电池SOH预测现状.jpg", caption="图2 锂电池SOH预测研究现状")
+    st.image("picture/锂电池SOH预测现状.jpg", caption="图2 锂电池SOH预测研究现状")
 
 st.markdown("<a id='case-study'></a>", unsafe_allow_html=True)
 st.header("3. 创新点")
@@ -135,7 +135,7 @@ st.write("""
 # 插入图片
 col1, col2, col3 = st.columns([1, 8, 1])
 with col2:  # 使用中间列来显示图片，会使图片居中
-    st.image("C:/Users/86180/Desktop/IJCNN/展示网页的材料/整体框架.jpg", caption="图3 算法整体框架")
+    st.image("picture/整体框架.jpg", caption="图3 算法整体框架")
 
 
 # 在 Markdown 中为特定标题添加类名
@@ -158,7 +158,7 @@ st.write("""
 # 插入图片
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:  # 使用中间列来显示图片，会使图片居中
-    st.image("C:/Users/86180/Desktop/IJCNN/展示网页的材料/图建模.jpg", caption="图4 锂电池组建模图表示")
+    st.image("picture/图建模.jpg", caption="图4 锂电池组建模图表示")
 
 
 st.markdown('<h2 class="custom-subheader">4.2 最优图提取器</h2>', unsafe_allow_html=True)
@@ -179,7 +179,7 @@ st.markdown("""
 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:  # 使用中间列来显示图片，会使图片居中
-    st.image("C:/Users/86180/Desktop/IJCNN/展示网页的材料/最优图提取器.jpg", caption="图5 最优图提取器整体框架，Conv代表一维卷积，BN是批归一化操作，FC是全连接层")
+    st.image("picture/最优图提取器.jpg", caption="图5 最优图提取器整体框架，Conv代表一维卷积，BN是批归一化操作，FC是全连接层")
 
 st.markdown('<h2 class="custom-subheader">4.3 空、时间特征提取器</h2>', unsafe_allow_html=True)
 st.markdown("""
@@ -197,7 +197,7 @@ st.markdown("""
 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:  # 使用中间列来显示图片，会使图片居中
-    st.image("C:/Users/86180/Desktop/IJCNN/展示网页的材料/时空特征融合器.jpg", caption="图6 时空特征融合过程")
+    st.image("picture/时空特征融合器.jpg", caption="图6 时空特征融合过程")
 
 
 st.markdown("<a id='conclusion'></a>", unsafe_allow_html=True)
